@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+#container{
+	margin: "20px";
+}
+#container::before{
+	content:"i am before";
+	color: red;
+	font-size:"20px"
+}
+#container::after{
+	content: "i am after";
+	color:red;
+	font-size:"20px"
+}

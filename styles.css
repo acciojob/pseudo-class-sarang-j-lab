@@ -4,11 +4,11 @@
 }
 #container::before{
 	content:"i am before";
-	color: red;
+	color: #f00;
 	font-size:"20px"
 }
 #container::after{
 	content: "i am after";
-	color:red;
+	color:#f00;
 	font-size:"20px"
 }
